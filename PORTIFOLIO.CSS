@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to bottom right, #3498db, #2c3e50);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  max-width: 900px;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 50%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYhHX2dJA0xCIH13LCiHnYkL-mZOmYI-9Rpg&s'); 
+  background-size: cover;
+  background-position: center;
+  border: 4px solid white;
+}
+
+.info {
+  max-width: 500px;
+}
+
+.info h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.info h2 {
+  font-size: 20px;
+  color: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.info p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #2980b9;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #1c5980;
+}
