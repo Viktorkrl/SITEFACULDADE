@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitor Silva Brum | Portfólio</title>
+  <link rel="stylesheet" href="Arquivo style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="perfil">
+      <div class="foto"></div>
+      <div class="info">
+        <h1>Vitor Silva Brum</h1>
+        <h2>Estudante de Tecnologia</h2>
+        <p>Focado em comunicação, tecnologia e soluções criativas. Busco sempre evoluir como profissional e aprender novas ferramentas para desenvolver projetos de impacto.</p>
+
+        <div class="links">
+          <a href="https://github.com/Viktorkrl/SITEFACULDADE">GitHub</a>
+          <a href="https://www.linkedin.com/in/vitor-silva-brum-a76b01321/">LinkedIn</a>
+          <a href="https://www.instagram.com/euvitoreu/">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
